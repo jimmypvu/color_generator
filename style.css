@@ -1,0 +1,101 @@
+nav {
+    display: flex;
+    align-items: center;
+    border-bottom: .1rem solid black;
+    margin-bottom: 2rem;
+}
+
+body {
+    min-width: 500px;
+}
+
+h4 {
+    font-size: large;
+}
+
+a {
+    /*font-weight: bold;*/
+    font-size: large;
+    padding: 2% 10%;
+    color: white;
+    border: .1rem solid rgb(50, 50, 50);
+    border-radius: .25rem;
+    background-color: rgb(33, 33, 33);
+    text-decoration: none;
+}
+
+.nav-center {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h4, ul {
+    justify-content: space-between;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin: 0 .5rem;
+}
+
+main {
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+* {
+    font-family: helvetica;
+    letter-spacing: .1rem;
+}
+
+.container {
+    border: .1rem solid rgb(50, 50, 50);
+    border-radius: .25rem;
+    padding-bottom: 1.25rem;
+    width: 52%;
+}
+
+button {
+    padding: 1% 5%;
+    color: rgb(33, 33, 33);
+    font-size: large;
+    background-color: white;
+    border: .08rem solid rgb(33,33,33);
+    border-radius: .25rem;
+    border-color: rgb(233, 233, 233);
+}
+
+button:hover {
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(211, 211, 211);
+}
+
+.colorName {
+    display: block;
+    padding-bottom: 1.25rem;
+}
+
+.blankSpace {
+    display: block;
+    visibility: hidden;
+    padding-bottom: 1.25rem;
+}
