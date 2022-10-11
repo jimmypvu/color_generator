@@ -1,6 +1,4 @@
 # color_generator
-color randomizer with simple rgb names or hex settings
+color randomizer with setting for simple rgbcmy colors or hex code settings with closest color name
 
-also uses Name That Color js library for color names in app "hex" setting credits to https://chir.ag/projects/ntc/
-
-read ntc.js comments for usage
+uses Name That Color js library for color names in hex code setting of app, credits to https://chir.ag/projects/ntc/
